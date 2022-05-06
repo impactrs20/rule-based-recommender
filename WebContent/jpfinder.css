@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+
+/* ------  GENERAL DEFS ---------------*/
+* {
+	font-family: Verdana;
+	font-size:9pt;
+	/* color: #cc0000;*/
+	color: #4f4f4f;
+}
+
+a {
+	color: #cc0000;
+}
+
+a:hover {
+	color: #cc0000;
+}
+
+.JPFINDER {
+	color: #7f7f7f;
+	font-variant:small-caps;
+	font-size:11pt;
+	font-weight:bold;
+}
+.JPFINDER-SMALL {
+	color: 7f7f7f;
+	font-variant:small-caps;
+	font-size:10pt;
+}
+
+.TOPCONTENT {
+	color: 7f7f7f;
+	font-weight:bold;
+	padding-left:20px;
+	font-family: Verdana;
+	font-size:10pt;
+	padding-top:0px;
+	padding-right:20px;
+	text-align: justify;
+}
+/* ------ LEFT MENU ---------------*/
+.MENU {
+	width:100%;
+	font-weight: bold;
+	border:0px;
+	color: white;
+	
+}
+.MENU A {
+	text-decoration: none;
+	color: #cc0000;
+}
+.MENUHEADER {
+	background-color: #cc0000;
+	color: white;
+	padding:5px;
+}
+
+.MENU TD {
+	padding:7px;
+	
+}
+
+.MOVER {
+	background-color:#ffdeff;
+}
+/* ---------------------*/
+/* RESULTS */
+	.PLABEL {
+		font-weight:bold;
+		font-size:12px;	
+		color:#cc0000;
+	}
+	
+	.FEATURE-LABEL {
+		font-weight:bold;
+		font-size:11px;
+		color: #4f4f4f;
+		padding-right:10px;
+		width:80px;
+		vertical-align:top;
+	}
+	.FEATURE-VALUE {
+		font-size:11px;
+		color: #4f4f4f;
+	}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RecommendationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+<!-- PRODUCT PROPERTIES -->
+<Variable name="p_flash_types" type="String[]"/>
+<Variable name="p_lcd" type="String"/>
+<Variable name="p_lcd_size" type="double"/>
+<Variable name="p_optical_zoom" type="int"/>
+<Variable name="p_digital_zoom" type="int"/>
+<Variable name="p_resolution" type="double"/>
+<Variable name="p_image" type="String"/>
+<Variable name="p_extras" type="String[]"/>
+<Variable name="p_summary" type="String"/>
+<Variable name="p_name" type="String"/>
+<Variable name="p_manufacturer" type="String"/>
+<Variable name="p_price" type="int"/>
+<Variable name="p_rating" type="int"/>
+
+<!-- USER REQUIREMENTS -->
+<Variable name="c_pref_interest" type="String"/>
+<Variable name="c_pref_min_resolution" type="String"/>
+<Variable name="c_pref_manufacturer" type="String[]"/>
+<Variable name="c_pref_price" type="String"/>
+<Variable name="c_pref_extras" type="String[]"/>
+<!-- FILTERING RULES -->
+
+<!-- THE RESOLUTION FILTERS -->
+<FilterRule 
+	name="f1"
+	condition="c_pref_min_resolution == 'medium'" 
+	filter="p_resolution > 4" 
+	priority = "5"
+	explanation = "Of course, this camera fulfils your requirements with respect to the minimum resolution."
+	excuse = "The proposed camera has a lot of features you desired, but it does have an above-average resolution."
+/>
+
+<FilterRule 
+	name="f2"
+	condition="c_pref_min_resolution == 'high'" 
+	filter="p_resolution > 7" 
+	priority = "5"
+	explanation = "Of course, This high-end scamera fulfils your requirements with respect to the minimum resolution."
+	excuse = "The proposed camera has a lot of features you desired, but it does have that high resolution."
+/>
+
+<FilterRule 
+	name="f3"
+	condition="c_pref_manufacturer != null" 
+	filter="isContainedIn(p_manufacturer, c_pref_manufacturer)" 
+	priority = "6"
+	explanation = "It is a model from one of your preferred manufacturer."
+	excuse = "I did not take your manufacturer preference into account, as this camera matches your other preferences better."
+/>
+
+<FilterRule 
+	name="f4"
+	condition="c_pref_price == 'low'" 
+	filter="p_price &lt; 200" 
+	priority = "8"
+	explanation = "I could also obey your price limits."
+	excuse = "The camera does not fall in your desired price range, but it has a lot of the other features you like."
+/>
+<FilterRule 
+	name="f5"
+	condition="c_pref_price == 'medium'" 
+	filter="p_price &lt; 400 &amp;&amp; p_price &gt; 200" 
+	priority = "8"
+	explanation = "I could also obey your price limits and selected a medium priced camera."
+	excuse = "The camera does not fall in your desired price range, but it has a lot of the other features you like."
+/>
+
+<FilterRule 
+	name="f6"
+	condition="c_pref_price == 'high'" 
+	filter="p_price &gt; 400 " 
+	priority = "8"
+	explanation = "The camera is a at the high-end price range as you desired.."
+	excuse = "The camera does not fall in your desired price range, but it has a lot of the other features you like."
+/>
+
+<FilterRule 
+	name="f7"
+	condition="isContainedIn('batteries',c_pref_extras)" 
+	filter="isContainedIn('Batteries',p_extras)" 
+	priority = "3"
+	explanation = "You can use this camera with ordinary batteries."
+	excuse = "I have no information whether this camera can be used with standard batteries. Please check at the manufacturer's homepage."
+/>
+<FilterRule 
+	name="f8"
+	condition="isContainedIn('dockingstation',c_pref_extras)" 
+	filter="isContainedIn('Docking Station',p_extras)" 
+	priority = "2"
+	explanation = "A docking station is available as an accessory."
+	excuse = "Although I could fulfil most other requirements, I cannot tell, whether a docking station is available for this cameras"
+/>
+<FilterRule 
+	name="f9"
+	condition="isContainedIn('largedisplay',c_pref_extras)" 
+	filter="p_lcd_size &gt; 2.5" 
+	priority = "2"
+	explanation = "The display of the camera is above average."
+	excuse = "Unfortunately, the display of the camera is not very large."
+/>
+
+
+
+<!-- PERSONALIZED INFORMATION TEXTS -->
+
+<InfoText name="interests" defaulttext="You have not specified your interests in photography, so I will propose cameras fulfilling standard requirements for an average user.">
+	<TextVariant condition="c_pref_interest == 'dunno'" text="You have not specified your interests in photography, so I will propose cameras fulfilling standard requirements for an average user."/>
+	<TextVariant condition="c_pref_interest == 'beginner'" text="You have told me that you have a strong interest in photography, so I shall recommend you a camera that fulfils some minimal standards for that."/>
+	<TextVariant condition="c_pref_interest == 'medium'" text="As you have specified to have an increased interest in photography, I propose a camera that fulfils an expert's requirements."/>
+	<TextVariant condition="c_pref_interest == 'expert'" text="As you have specified to be an expert in the domain, I will recommend a camera that fulfils above-the-average requirements."/>
+</InfoText>
+
+<InfoText name="sorting" defaulttext="This camera is also the one having the best ">
+</InfoText>
+
+
+</RecommendationRules>

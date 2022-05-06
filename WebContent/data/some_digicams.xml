@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <Products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Product>
+<Attribute name="p_flash_types" value="#XD-Picture Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31675512-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#Batteries#"/>
+<Attribute name="p_summary" value="Video capture ability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value=" Olympus SP-320"/>
+<Attribute name="p_price" value="300"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- - 2.4 in - Color"/>
+<attribute name="p_lcd_size" value="2.4"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31833357-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value=" Samsung Digimax S600"/>
+<Attribute name="p_price" value="250"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.4 in - Color"/>
+<attribute name="p_lcd_size" value="2.4"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="5"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31746127-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="1"/>
+<Attribute name="p_name" value=" Samsung Digimax S500 (black)"/>
+<Attribute name="p_price" value="160"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.4 in - Color"/>
+<attribute name="p_lcd_size" value="2.4"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31754585-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="With a slim profile of 0.8 in., this camera fits easily into a pocket or purse. Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value=" Samsung Digimax L60"/>
+<Attribute name="p_price" value="188"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 1.8 in - Color"/>
+<attribute name="p_lcd_size" value="1.8"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="5"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31738506-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#Batteries#"/>
+<Attribute name="p_summary" value="Video capture ability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value=" Kodak EasyShare C533"/>
+<Attribute name="p_price" value="145"/>
+<Attribute name="p_rating" value="2"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.4 in - Color"/>
+<attribute name="p_lcd_size" value="2.4"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31738505-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#Batteries#"/>
+<Attribute name="p_summary" value="Having video capture capability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value=" Kodak EasyShare C643"/>
+<Attribute name="p_price" value="240"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2 in - Color"/>
+<attribute name="p_lcd_size" value="2"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="4"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31736756-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="A panoramic assist function is provided in this camera, making it ideal for vacation pictures. Having video capture capability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value=" Nikon Coolpix L4"/>
+<Attribute name="p_price" value="180"/>
+<Attribute name="p_rating" value="2"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2 in - Color"/>
+<attribute name="p_lcd_size" value="2"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="5"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31736755-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="A panoramic assist function is provided in this camera, making it ideal for vacation pictures. Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value=" Nikon Coolpix L3"/>
+<Attribute name="p_price" value="223"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#XD-Picture Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31675518-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#Batteries#"/>
+<Attribute name="p_summary" value="A panoramic assist function is provided in this camera, making it ideal for vacation pictures. Having video capture capability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value=" Olympus FE-140"/>
+<Attribute name="p_price" value="380"/>
+<Attribute name="p_rating" value="1"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#XD-Picture Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2 in - Color"/>
+<attribute name="p_lcd_size" value="2"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="5"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31675517-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#Batteries#"/>
+<Attribute name="p_summary" value="A panoramic assist function is provided in this camera, making it ideal for vacation pictures. Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value=" Olympus FE-130"/>
+<Attribute name="p_price" value="229"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+
+
+
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.7 in - Color"/>
+<attribute name="p_lcd_size" value="2.7"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31808019-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="With a slim profile of 0.8 in., this camera fits easily into a pocket or purse. Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Casio Exilim EX-Z600 (blue)"/>
+<Attribute name="p_price" value="278"/>
+<Attribute name="p_rating" value="2"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.7 in - Color"/>
+<attribute name="p_lcd_size" value="2.7"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31745999-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="With a slim profile of 0.8 in., this camera fits easily into a pocket or purse. Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Casio Exilim EX-Z600 (silver)"/>
+<Attribute name="p_price" value="450"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.7 in - Color"/>
+<attribute name="p_lcd_size" value="2.7"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31899967-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="A slim profile makes this camera easy to carry. Video capture ability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Casio Exilim EX-Z600 (black)"/>
+<Attribute name="p_price" value="449"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value=""/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31965082-2-120-0.gif"/>
+<Attribute name="p_extras" value=""/>
+<Attribute name="p_summary" value=""/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value="Samsung NV3"/>
+<Attribute name="p_price" value="480"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value=""/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31975858-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Color"/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Panasonic Lumix DMC-FX07S (silver)"/>
+<attribute name="p_lcd_size" value=""/>
+<Attribute name="p_price" value="500"/>
+<Attribute name="p_rating" value="2"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value=""/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31977234-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Color"/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Panasonic Lumix DMC-FX07K (black)"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_price" value="472"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#XD-Picture Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31503517-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value="Olympus SP-310"/>
+<Attribute name="p_price" value="459"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="8"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31703985-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Video capture ability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-W100"/>
+<Attribute name="p_price" value="560"/>
+<Attribute name="p_rating" value="1"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.8 in - Color"/>
+<attribute name="p_lcd_size" value="2.8"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="4"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31851113-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="A slim profile makes this camera easy to carry. Having video capture capability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Casio Exilim EX-Z1000 (silver)"/>
+<Attribute name="p_price" value="295"/>
+<Attribute name="p_rating" value="2"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2 in - Color"/>
+<attribute name="p_lcd_size" value="2"/>
+<attribute name="p_optical_zoom" value="1"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31675043-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value="Kodak EasyShare Z650"/>
+<Attribute name="p_price" value="309"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+
+
+
+
+
+
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31988642-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="Color"/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-T10 (silver)"/>
+<Attribute name="p_price" value="479"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31988645-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="No summary given"/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-T10 (white)"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="469"/>
+<Attribute name="p_rating" value="2"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31988643-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="Color"/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-T10 (black)"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="477"/>
+<Attribute name="p_rating" value="1"/>
+</Product>
+
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31988649-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="No summary given"/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-T10 (pink)"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="409"/>
+<Attribute name="p_rating" value="1"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 3 in - Color"/>
+<attribute name="p_lcd_size" value="3"/>
+<attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31813563-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="With a slim profile of 0.9 in., this camera fits easily into a pocket or purse. Having video capture capability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-T30 (black)"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="398"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31757143-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="With a slim profile of 0.8 in., this camera fits easily into a pocket or purse. Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-T9 (Black)"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="309"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.8 in - Color"/>
+<attribute name="p_lcd_size" value="2.8"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="5"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31861309-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="With a slim profile of 0.9 in., this camera fits easily into a pocket or purse. Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Casio Exilim EX-Z1000 (black)"/>
+<Attribute name="p_manufacturer" value="Casio"/>
+<Attribute name="p_price" value="198"/>
+<Attribute name="p_rating" value="2"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value=""/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31965084-2-120-0.gif"/>
+<Attribute name="p_extras" value="##"/>
+<Attribute name="p_summary" value=""/>
+<Attribute name="p_digital_zoom" value=""/>
+<Attribute name="p_name" value="Samsung NV10"/>
+<Attribute name="p_manufacturer" value="Samsung"/>
+<Attribute name="p_price" value="311"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="1"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31738566-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="Weight"/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Kodak EasyShare Z612"/>
+<Attribute name="p_manufacturer" value="Kodak"/>
+<Attribute name="p_price" value="339"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="5"/>
+<Attribute name="p_resolution" value="8"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31754649-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Having video capture capability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="8"/>
+<Attribute name="p_name" value="Samsung Digimax L85"/>
+<Attribute name="p_manufacturer" value="Samsung"/>
+<Attribute name="p_price" value="597"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+
+
+<Product>
+<Attribute name="p_flash_types" value="#XD-Picture Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31732967-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="6"/>
+<Attribute name="p_name" value="Fujifilm FinePix F30"/>
+<Attribute name="p_manufacturer" value="Fujifilm"/>
+<Attribute name="p_price" value="319"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 3 in - Color"/>
+<attribute name="p_lcd_size" value="3"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31803898-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="A slim profile makes this camera easy to carry. Having video capture capability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-T30 (silver)"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="349"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#XD-Picture Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="7"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31675516-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="With a slim profile of 0.8 in., this camera fits easily into a pocket or purse. Video capture ability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="5"/>
+<Attribute name="p_name" value="Olympus Stylus 720 SW"/>
+<Attribute name="p_manufacturer" value="Olympus"/>
+<Attribute name="p_price" value="389"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="8"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31736760-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Nikon Coolpix P3"/>
+<Attribute name="p_manufacturer" value="Nikon"/>
+<Attribute name="p_price" value="520"/>
+<Attribute name="p_rating" value="3"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2 in - Color"/>
+<attribute name="p_lcd_size" value="2"/>
+<Attribute name="p_optical_zoom" value="1"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31703776-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="2"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-H2"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="179"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2 in - Color"/>
+<attribute name="p_lcd_size" value="2"/>
+<Attribute name="p_optical_zoom" value="1"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31740582-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Canon PowerShot S3 IS"/>
+<Attribute name="p_manufacturer" value="Canon"/>
+<Attribute name="p_price" value="188"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.8 in - Color"/>
+<attribute name="p_lcd_size" value="2.8"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31813552-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="A slim profile makes this camera easy to carry. Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Kodak EasyShare V610"/>
+<Attribute name="p_manufacturer" value="Kodak"/>
+<Attribute name="p_price" value="205"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="4"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31740585-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Canon PowerShot SD700 IS"/>
+<Attribute name="p_manufacturer" value="Canon"/>
+<Attribute name="p_price" value="249"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#MultiMediaCard#SD Memory Card#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="6"/>
+<Attribute name="p_resolution" value="6"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31740580-2-120-0.gif"/>
+<Attribute name="p_extras" value="#USB#"/>
+<Attribute name="p_summary" value="Video capture ability adds convenience for the user."/>
+<Attribute name="p_digital_zoom" value="4"/>
+<Attribute name="p_name" value="Canon PowerShot A700"/>
+<Attribute name="p_manufacturer" value="Canon"/>
+<Attribute name="p_price" value="278"/>
+<Attribute name="p_rating" value="4"/>
+</Product>
+<Product>
+<Attribute name="p_flash_types" value="#Memory Stick Duo#Memory Stick PRO Duo#"/>
+<Attribute name="p_lcd" value="- TFT active matrix - 2.5 in - Color"/>
+<attribute name="p_lcd_size" value="2.5"/>
+<Attribute name="p_optical_zoom" value="3"/>
+<Attribute name="p_resolution" value="5"/>
+<Attribute name="p_image" value="http://i.i.com.com/cnwk.1d/sc/31632277-2-120-0.gif"/>
+<Attribute name="p_extras" value="#Docking Station#USB#"/>
+<Attribute name="p_summary" value="Video capture ability makes this camera ideal for social functions or vacation shots."/>
+<Attribute name="p_digital_zoom" value="6"/>
+<Attribute name="p_name" value="Sony Cyber Shot DSC-M2"/>
+<Attribute name="p_manufacturer" value="Sony"/>
+<Attribute name="p_price" value="169"/>
+<Attribute name="p_rating" value="5"/>
+</Product>
+
+
+
+</Products>

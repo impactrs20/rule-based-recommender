@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RecommendationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!-- Define the variables used in the system and their types -->
+<Variable name="p_id" type="String"/>
+<Variable name="p_description" type="String"/>
+<Variable name="p_rating" type="int"/>
+<Variable name="p_resolution" type="double"/>
+<Variable name="p_price" type="double"/>
+<Variable name="p_extras" type="String[]"/>
+<Variable name="c_pref_rating" type="String"/>
+<Variable name="c_pref_price" type="double"/>
+<Variable name="c_pref_extras" type="String[]"/>
+
+<!-- Filter rules -->
+<FilterRule 
+	name="f1"
+	condition="c_pref_rating == 'high'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "4"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="f2"
+	condition="true" 
+	filter="p_price &lt; c_pref_price" 
+	priority = "7"
+	explanation = "This is a product matching your price preferences."
+	excuse = "This product fulfils many of your requirements, it is a bit more expensive, though. Maybe you consider spending a bit more money in order to have all your wishes fulfilled."
+/>
+<FilterRule 
+	name="f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "9"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+
+<InfoText name="price" defaulttext="Das ist der Default-Text">
+	<TextVariant condition="c_pref_rating == 'high'" text="Text für hohe Preisvorstellungen"/>
+	<TextVariant condition="c_pref_rating == 'low'" text="Text für niedere Preisvorstellungen"/>
+</InfoText>
+
+<InfoText name="extras" defaulttext="Das ist der Default-Text fuer Extras">
+	<TextVariant condition="isContainedIn('USB', c_pref_extras)" text="Text für  USB-Wunsch"/>
+	<TextVariant condition="!isContainedIn('USB', c_pref_extras)" text="Text für keinen USB-Wunsch"/>
+</InfoText>
+
+<!--
+
+<FilterRule 
+	name="1f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="2f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="3f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="4f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="5f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="6f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="7f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="8f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="9f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="10f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="11f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="12f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="13f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="14f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="15f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="16f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="17f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="18f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="19f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="20f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+<FilterRule 
+	name="21f3"
+	condition="c_pref_rating == 'medium'" 
+	filter="p_rating &gt; 3 &amp;&amp; isContainedIn('Firewire',p_extras) " 
+	priority = "5"
+	explanation = "According to your preferences, I propose a produt which was positively rated by most of our customers"
+	excuse = "Although this produdct matches many of your wishes, it was not positively evaluated by our customers. Maybe not enough customers have rated this product."
+/>
+
+<FilterRule 
+	name="1f2"
+	condition="true" 
+	filter="p_price &lt; c_pref_price" 
+	priority = "5"
+	explanation = "This is a product matching your price preferences."
+	excuse = "This product fulfils many of your requirements, it is a bit more expensive, though. Maybe you consider spending a bit more money in order to have all your wishes fulfilled."
+/>
+<FilterRule 
+	name="2f2"
+	condition="true" 
+	filter="p_price &lt; c_pref_price" 
+	priority = "5"
+	explanation = "This is a product matching your price preferences."
+	excuse = "This product fulfils many of your requirements, it is a bit more expensive, though. Maybe you consider spending a bit more money in order to have all your wishes fulfilled."
+/>
+<FilterRule 
+	name="3f2"
+	condition="true" 
+	filter="p_price &lt; c_pref_price" 
+	priority = "5"
+	explanation = "This is a product matching your price preferences."
+	excuse = "This product fulfils many of your requirements, it is a bit more expensive, though. Maybe you consider spending a bit more money in order to have all your wishes fulfilled."
+/>
+<FilterRule 
+	name="4f2"
+	condition="true" 
+	filter="p_price &lt; c_pref_price" 
+	priority = "5"
+	explanation = "This is a product matching your price preferences."
+	excuse = "This product fulfils many of your requirements, it is a bit more expensive, though. Maybe you consider spending a bit more money in order to have all your wishes fulfilled."
+/>
+<FilterRule 
+	name="5f2"
+	condition="true" 
+	filter="p_price &lt; c_pref_price" 
+	priority = "5"
+	explanation = "This is a product matching your price preferences."
+	excuse = "This product fulfils many of your requirements, it is a bit more expensive, though. Maybe you consider spending a bit more money in order to have all your wishes fulfilled."
+/>
+-->
+
+</RecommendationRules>
